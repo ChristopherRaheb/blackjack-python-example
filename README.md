@@ -1,2 +1,2 @@
-# blackjack-python-example
-A simple Blackjack game in python for teaching purposes.
+# teaching-examples
+Sample projects to teach my students.
