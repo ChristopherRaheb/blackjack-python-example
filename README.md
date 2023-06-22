@@ -8,3 +8,5 @@ meal-api - a multi-file program that teaches api use using the website https://w
     objects.py  - includes Category, Area, Meal, and Instructions classes
     requests.py - takes data from the website api
     recipes.py  - main
+
+grid-movement.py - for use in a PixelPad project, calculating and moving across a grid. Incomplete.
