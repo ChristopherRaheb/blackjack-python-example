@@ -10,3 +10,5 @@ meal-api - a multi-file program that teaches api use using the website https://w
     recipes.py  - main
 
 grid-movement.py - for use in a PixelPad project, calculating and moving across a grid. Incomplete.
+
+rook-movement.py - movement for a rook in a chess game.
