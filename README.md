@@ -9,6 +9,11 @@ meal-api - a multi-file program that teaches api use using the website https://w
     requests.py - takes data from the website api
     recipes.py  - main
 
-grid-movement.py - for use in a PixelPad project, calculating and moving across a grid. Incomplete.
+tower-defense - for use in a PixelPAD tower defense game.
 
-rook-movement.py - movement for a rook in a chess game.
+    grid-movement.py - calculating and moving across a grid.
+    find-target.py - for towers finding the best target to attack.
+
+chess-movement.py - movement for pieces in a chess game.
+
+galaga-teal-alien.py - wip movement for the teal alien in a galaga game. For PixelPAD.
