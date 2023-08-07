@@ -113,9 +113,9 @@ class TealAlien:
                 else: # if player is on left side of alien
                     self.targetdirection = 1 # flip to right
 
-                self.diving = True # start diving
+                self.diving2 = True # start diving
 
-                if self.diving == True: # when diving
+                if self.diving2 == True: # when diving
 
                     if self.angle != self.targetangle: # while angle is not equal to target angle
                         if self.targetdirection == 0: # if target direction is left
@@ -125,10 +125,10 @@ class TealAlien:
                             self.angle -= self.speed # flip to right
 
                     else: # if angle is equal to target angle
-                        self.diving = False # stop diving
+                        self.diving2 = False # stop diving
 
                     if self.angle + 360 == self.targetangle or self.angle - 360 == self.targetangle: # account for angle going over 360 or under 0
-                        self.diving = False
+                        self.diving2 = False
                     
                     # move alien
                     self.x += self.speed * -math.sin(self.angle * math.pi / 180)
