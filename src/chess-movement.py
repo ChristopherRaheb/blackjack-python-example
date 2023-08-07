@@ -122,9 +122,10 @@ def moveKnight(chessBoard, startingRow, startingCol):
     endCol = int(input("Enter the ending column: "))
 
     if (abs(startingRow - endRow) == 2 and abs(startingCol - endCol) == 1) or (abs(startingRow - endRow) == 1 and abs(startingCol - endCol) == 2): # if the difference between the starting and ending row is 2 and the difference between the starting and ending column is 1 or vice versa
-        chessBoard[startingRow][startingCol] = "_"
-        chessBoard[endRow][endCol] = "k"
-        return chessBoard
+        if chessBoard[endRow][endCol] == "_":
+            chessBoard[startingRow][startingCol] = "_"
+            chessBoard[endRow][endCol] = "k"
+            return chessBoard
     
     print("Invalid move")
     return 1
