@@ -17,3 +17,5 @@ tower-defense - for use in a PixelPAD tower defense game.
 chess-movement.py - movement for pieces in a chess game.
 
 galaga-teal-alien.py - wip movement for the teal alien in a galaga game. For PixelPAD.
+
+shop-delete.py - for deleting a shop when one of 2 options are clicked. For a diep.io clone in PixelPAD.
